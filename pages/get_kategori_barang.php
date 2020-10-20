@@ -5,7 +5,7 @@
  
   
     //Membuat koneksi ke database 
-    $kon = mysqli_connect("sql206.epizy.com","epiz_27002752","1OFmswRPn54","epiz_27002752_db_kasir");
+    $kon = mysqli_connectmysqli_connect("localhost","root","","db_kasir");
     if (!$kon){
         die("Koneksi database gagal:".mysqli_connect_error());
     }
